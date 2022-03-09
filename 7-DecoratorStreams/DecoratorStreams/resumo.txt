@@ -1,0 +1,8 @@
+FileInputStream/FileOutputStream = Você usa quando tem certeza que vai receber os dados em byte 
+mas quer gravar em outros tipos
+
+FileReader/FileWriter = Você usa quando tem certeza que vai receber os dados em char e devolver 
+em char
+
+InputStreamReader = Você usa quando tem certeza que vai receber os dados em byte e que vai 
+devolver em char. 

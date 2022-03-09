@@ -1,0 +1,33 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Launch with Arguments Prompt",
+            "request": "launch",
+            "mainClass": "JavaStreams.Copy",
+            "args": [
+                "/home/gabrielbarbosa/Documentos/Programacao/SpringMVC-estudo/Resumo-Java/5-JavaStreams/JavaStreams/testeDeTexto.txt", 
+                "/home/gabrielbarbosa/Documentos/Programacao/SpringMVC-estudo/Resumo-Java/5-JavaStreams/JavaStreams/testeDeTextoCopia.txt"
+            ]
+        },
+        
+        {
+            "type": "java",
+            "name": "Launch Copy",
+            "request": "launch",
+            "mainClass": "JavaStreams.Copy",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+        }
+    ]
+}
